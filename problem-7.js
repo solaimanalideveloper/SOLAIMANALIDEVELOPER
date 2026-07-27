@@ -19,6 +19,7 @@
 
 // With Function
 
+
 function isPlaingdom(str) {
   let reverseStr = "";
   
@@ -34,4 +35,4 @@ function isPlaingdom(str) {
   }
 }
 
-console.log(isPlaingdom("madam"));
+console.log(isPlaingdom("dad"));
