@@ -1,4 +1,4 @@
-// problem 10 : Fine the  Smallest Number in a Array
+// problem 10 : Find the  Smallest Number in a Array
 
 // Without Function
 let arr = [450, 250, 20, 50, 25, 30, 15];
