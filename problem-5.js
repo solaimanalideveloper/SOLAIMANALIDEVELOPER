@@ -2,21 +2,27 @@
 
 // Without Function
 
-let str = "Bangladesh";
-console.log(str);
-let hello = "";
-for (let i = str.length - 1; i >= 0; i--) {
-  console.log(i);
-  hello += str[i];
-}
-console.log(hello);
+// let str = "Bangladesh";
+// console.log(str);
+// let hello = "";
+// for (let i = str.length - 1; i >= 0; i--) {
+//   console.log(i);
+//   hello += str[i];
+// }
+// console.log(hello);
 
 // With Function
 
-function str(password) {
-  let hello = "";
-  for (let i = password.length -1; i >= 0; i--) {
-   hello += password[i];
+function reverseWord(word) {
+  let reverseWord = "";
+
+  for (let i = word.length - 1; i >= 0; i--) {
+    let letter = word[i];
+    console.log("i-> ", i, letter);
+    reverseWord += letter;
   }
-  return hello
-}console.log(str("bangladesh"));
+  return reverseWord;
+}
+
+console.log(reverseWord("Programming"));
+console.log(reverseWord("Bangladesh"));
